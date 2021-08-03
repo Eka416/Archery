@@ -7,7 +7,7 @@ class Computer {
     this.bob = Bodies.rectangle(x,y,w,h,options)
     this.w = w
     this.h = h
-    this.image = loadImage("./assets/player.png")
+    this.image = loadImage("player.png")
     World.add(world,this.bob)
     }
     display() {
